@@ -1,0 +1,46 @@
+{
+  "google" : "AIzaSyCurqD6IFuMt8cqeHKemImU2qNZitt6OSQ",
+   "prefix": "+",
+   "ownerIDS": [
+      "926061356694777877"
+   ],
+   "status": {
+      "text": "+help | +play",
+      "type": "STREAMING",
+      "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+      "url": "https://www.twitch.tv/#"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "lavalink.eu",
+            "port": 2333,
+            "password": "Raccoon"
+         }
+      ]
+   },
+   "spotify": {
+      "clientSecret": "d3179965002e415aa1d7649e801e5b2c",
+      "clientID": "a5456102f78146518490d53cc90117d1"
+   },
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 10000
+      },
+      "selfDeaf": true
+   },
+   "lyricssettings": {
+      "lyrics_finder": true,
+      "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+      "ksoft_api": {
+         "use_this_instead": true,
+         "api_key": "AIzaSyAVph-V_duKCbh-yOqPvvfmeRGqVQ8SkkY"
+      }
+   }
+}
